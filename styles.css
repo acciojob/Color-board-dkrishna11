@@ -17,9 +17,12 @@
 
 .square:hover:nth-child(2n+1){
 	background:green;
+	transition:ease-in;
 }
 .square:hover:nth-child(3n+1){
 	background:brown;
+	transition:ease-in 0.09s;
+	
 }
 .square:hover:nth-child(-n+3){
 	background:blue;
