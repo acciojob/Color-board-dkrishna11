@@ -1,1 +1,44 @@
 /*  your css code here. If applicable */
+.container{
+	display:flex;
+	flex-wrap:wrap;
+	background-color:black;
+	height:100vh;
+	padding:10px;
+}
+
+.square{
+	padding:10px;
+	background-color:grey;
+	margin:3px;
+	height:8px;
+	width:8px;
+}
+
+.square:hover:nth-child(2n+1){
+	background:green;
+}
+.square:hover:nth-child(3n+1){
+	background:brown;
+}
+.square:hover:nth-child(-n+3){
+	background:blue;
+}
+.square:hover:nth-child(4n+1){
+	background:violet;
+}
+.square:hover:nth-child(4n+4){
+	background:red;
+}
+.square:hover:nth-child(4n){
+	background:yellow;
+}
+.square:hover:nth-child(5n-2){
+	background:white;
+}
+.square:hover:nth-child(6n+1){
+	background:orange;
+}
+.square:hover:nth-child(7n+1){
+	background:lightsteelblue;
+}
